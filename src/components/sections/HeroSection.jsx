@@ -1,7 +1,7 @@
 import React from "react";
 
 const HeroSection = () => (
-  <section className="min-h-screen bg-[#e4ece4] flex items-center pt-16 sm:pt-20 lg:pt-24">
+  <section className="min-h-screen bg-[#e4ece4] flex items-center">
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
       <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
         {/* Text Content */}
@@ -25,7 +25,7 @@ const HeroSection = () => (
         <div className="relative order-first lg:order-last">
           <div className="relative overflow-hidden rounded-xl sm:rounded-2xl shadow-xl sm:shadow-2xl">
             <img
-              src="/src/assets/Nurse.jpg"
+              src="/Nurse.jpg"
               alt="Medical professionals at surgical center"
               className="w-full h-64 sm:h-80 md:h-96 lg:h-auto object-cover"
             />

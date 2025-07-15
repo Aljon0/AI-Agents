@@ -13,7 +13,7 @@ const VisionSection = () => (
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center">
         <div className="relative order-2 lg:order-1">
           <img
-            src="/src/assets/AI.jpeg"
+            src="/AI.jpeg"
             alt="AI Technology Visualization"
             className="w-full h-auto rounded-xl sm:rounded-2xl shadow-lg sm:shadow-2xl"
           />
