@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Logo from "../assets/Logo.PNG";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -70,7 +69,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img
-              src={Logo}
+              src="/Logo.png"
               alt="Human Co-Pilot Logo"
               className="w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 object-contain"
             />
